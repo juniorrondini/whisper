@@ -3,7 +3,7 @@
   <rect x="52" y="52" width="1176" height="536" rx="30" fill="white" stroke="#D9E2EC"/>
   <rect x="52" y="52" width="292" height="536" rx="30" fill="#101828"/>
 
-  <g transform="translate(92 88)">
+  <g transform="translate(150 84)">
     <rect width="96" height="96" rx="22" fill="#0B1220"/>
     <path d="M18 27C18 18.451 25.451 11 34 11H62C70.549 11 78 18.451 78 27V49C78 57.549 70.549 65 62 65H51.5L36.65 80.8C33.583 84.064 28 81.894 28 77.415V65C22.074 63.578 18 58.014 18 49V27Z" fill="url(#coverBubble)"/>
     <path d="M28 34L38 56L48 32L58 56L68 34" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -11,12 +11,12 @@
     <circle cx="68" cy="70" r="7.5" fill="#10B981"/>
     <circle cx="68" cy="70" r="2.6" fill="white"/>
   </g>
-  <text x="204" y="146" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="white">Whisper</text>
-  <text x="92" y="234" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#94A3B8">CENTRAL</text>
-  <rect x="92" y="254" width="208" height="44" rx="8" fill="#1F2937"/>
-  <rect x="92" y="318" width="208" height="44" rx="8" fill="#0EA5E9"/>
-  <rect x="92" y="382" width="208" height="44" rx="8" fill="#1F2937"/>
-  <rect x="92" y="446" width="146" height="44" rx="8" fill="#1F2937"/>
+  <text x="198" y="215" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="white" text-anchor="middle">Whisper</text>
+  <text x="92" y="268" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#94A3B8">CENTRAL</text>
+  <rect x="92" y="288" width="208" height="44" rx="8" fill="#1F2937"/>
+  <rect x="92" y="352" width="208" height="44" rx="8" fill="#0EA5E9"/>
+  <rect x="92" y="416" width="208" height="44" rx="8" fill="#1F2937"/>
+  <rect x="92" y="480" width="146" height="44" rx="8" fill="#1F2937"/>
 
   <g transform="translate(408 92)">
     <rect width="192" height="192" rx="42" fill="#101828"/>
