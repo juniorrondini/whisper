@@ -1,0 +1,11 @@
+<svg width="720" height="200" viewBox="0 0 720 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="200" rx="32" fill="#F8FAFC"/>
+  <g transform="translate(42 34)">
+    <rect x="0" y="0" width="132" height="132" rx="30" fill="#101828"/>
+    <path d="M36 45c0-12.15 9.85-22 22-22h28c12.15 0 22 9.85 22 22v18c0 12.15-9.85 22-22 22H68.7L48.2 103.5c-3.9 3.52-10.2.75-10.2-4.5V84.4C26.8 82.36 18 72.56 18 60.8V45Z" fill="#0EA5E9"/>
+    <path d="M48 49.5h38M48 64.5h28" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="96" cy="94" r="16" fill="#10B981"/>
+  </g>
+  <text x="206" y="100" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="#101828">Whisper</text>
+  <text x="210" y="137" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#475467">Realtime support desk</text>
+</svg>

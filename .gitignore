@@ -1,0 +1,12 @@
+.env
+node_modules/
+dist/
+frontend/dist/
+frontend/node_modules/
+*.log
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+postgres_data/
+tmp/
+.DS_Store
