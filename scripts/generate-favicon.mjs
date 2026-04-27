@@ -33,13 +33,13 @@ function fill(predicate, rgbaOrFn) {
 fill((x, y) => insideRoundRect(x, y, 32, 32, 7), [16, 24, 40, 255]);
 
 const bubble = (x, y) => {
-  const body = x >= 5 && x <= 26 && y >= 5 && y <= 22 && insideRoundRect(x - 5, y - 5, 21, 17, 5);
-  const tail = x >= 10 && x <= 16 && y >= 20 && y <= 27 && y - 20 >= Math.abs(x - 12);
+  const body = x >= 6 && x <= 26 && y >= 4 && y <= 22 && insideRoundRect(x - 6, y - 4, 20, 18, 5);
+  const tail = x >= 10 && x <= 16 && y >= 20 && y <= 27 && y - 20 >= Math.abs(x - 12.5) * 1.2;
   return body || tail;
 };
 
 fill(bubble, (_x, y) => {
-  const t = Math.max(0, Math.min(1, (y - 5) / 22));
+  const t = Math.max(0, Math.min(1, (y - 4) / 23));
   return [
     Math.round(56 * (1 - t) + 3 * t),
     Math.round(189 * (1 - t) + 105 * t),
@@ -59,27 +59,41 @@ function distanceToSegment(px, py, ax, ay, bx, by) {
 }
 
 const wave = [
-  [8.5, 13],
-  [11, 8],
-  [14.5, 21],
-  [17.5, 7],
-  [20.8, 21],
-  [24, 8],
-  [27, 13]
+  [9, 11.4],
+  [12.1, 18.5],
+  [16, 10.8],
+  [19.9, 18.5],
+  [23, 11.4]
 ];
 
 fill((x, y) => {
   for (let i = 0; i < wave.length - 1; i++) {
-    if (distanceToSegment(x + 0.5, y + 0.5, wave[i][0], wave[i][1], wave[i + 1][0], wave[i + 1][1]) <= 1.35) {
+    if (distanceToSegment(x + 0.5, y + 0.5, wave[i][0], wave[i][1], wave[i + 1][0], wave[i + 1][1]) <= 1.65) {
       return true;
     }
   }
   return false;
 }, [255, 255, 255, 255]);
 
-fill((x, y) => distanceToSegment(x + 0.5, y + 0.5, 7, 18.5, 26.5, 19.5) <= 0.85, [125, 211, 252, 150]);
-fill((x, y) => (x - 24) ** 2 + (y - 24) ** 2 <= 17, [16, 185, 129, 255]);
-fill((x, y) => (x - 24) ** 2 + (y - 24) ** 2 <= 4, [255, 255, 255, 255]);
+const highlight = [
+  [9.8, 11.4],
+  [12.4, 17.4],
+  [16, 10.1],
+  [19.6, 17.4],
+  [22.2, 11.4]
+];
+
+fill((x, y) => {
+  for (let i = 0; i < highlight.length - 1; i++) {
+    if (distanceToSegment(x + 0.5, y + 0.5, highlight[i][0], highlight[i][1], highlight[i + 1][0], highlight[i + 1][1]) <= 0.55) {
+      return true;
+    }
+  }
+  return false;
+}, [186, 230, 253, 95]);
+
+fill((x, y) => (x - 23.5) ** 2 + (y - 22.5) ** 2 <= 7, [16, 185, 129, 255]);
+fill((x, y) => (x - 23.5) ** 2 + (y - 22.5) ** 2 <= 1.3, [255, 255, 255, 255]);
 
 const andMask = Buffer.alloc(size * 4);
 const dibSize = 40 + pixels.length + andMask.length;

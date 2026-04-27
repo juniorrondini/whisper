@@ -1,12 +1,12 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="15" fill="#101828"/>
-  <path d="M16.5 18.5C16.5 13.806 20.306 10 25 10H40C44.694 10 48.5 13.806 48.5 18.5V31.5C48.5 36.194 44.694 40 40 40H34.2L24.7 50.1C23.117 51.784 20.25 50.663 20.25 48.35V41C14.752 39.707 10.75 34.791 10.75 29V18.5Z" fill="url(#bubble)"/>
-  <path d="M18.5 25.5C22.1 18.6 25.1 18.6 28 25.5L31.6 34.4L35.7 16.5L40.3 34.4L44 25.5C47 18.6 50 18.6 53 25.5" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M14.5 33.2C19.8 39.6 27.3 43 35.4 43C42.1 43 48.3 40.6 53.1 36.6" stroke="#7DD3FC" stroke-width="2.4" stroke-linecap="round" opacity=".55"/>
-  <circle cx="48.5" cy="48" r="7.5" fill="#10B981"/>
-  <circle cx="48.5" cy="48" r="2.6" fill="white"/>
+  <rect width="64" height="64" rx="14" fill="#101828"/>
+  <path d="M11.5 18C11.5 12.477 15.977 8 21.5 8H42.5C48.023 8 52.5 12.477 52.5 18V32.5C52.5 38.023 48.023 42.5 42.5 42.5H34.875L24.9 52.85C23.025 54.795 19.75 53.468 19.75 50.768V42.5C15.194 41.679 11.5 37.567 11.5 32.5V18Z" fill="url(#bubble)"/>
+  <path d="M18 22.75L24.25 37L32 21.5L39.75 37L46 22.75" stroke="white" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M19.5 22.75L24.75 34.75L32 20.25L39.25 34.75L44.5 22.75" stroke="#BAE6FD" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+  <circle cx="47" cy="45.25" r="5" fill="#10B981"/>
+  <circle cx="47" cy="45.25" r="1.75" fill="white"/>
   <defs>
-    <linearGradient id="bubble" x1="11" y1="10" x2="51" y2="50" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bubble" x1="11.5" y1="8" x2="49.5" y2="50.5" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
       <stop offset=".58" stop-color="#0EA5E9"/>
       <stop offset="1" stop-color="#0369A1"/>

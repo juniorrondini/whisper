@@ -1,14 +1,14 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="256" height="256" rx="56" fill="#101828"/>
-  <path d="M66 74C66 51.909 83.909 34 106 34H166C188.091 34 206 51.909 206 74V128C206 150.091 188.091 168 166 168H139.2L97.4 212.2C90.022 220.003 76.7 214.782 76.7 204.04V171.4C53.057 166.013 35.8 144.934 35.8 119.9V74Z" fill="url(#bubble)"/>
-  <path d="M64 102C79.2 74 91.2 74 103.7 102L118.7 137.4L136.4 63.1L156.2 137.4L171.7 102C183.9 74.2 197 74.2 210 102" stroke="white" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M52 132C73.7 158.9 105.1 174 138.8 174C169.2 174 197.3 161.8 217.8 141.5" stroke="#7DD3FC" stroke-width="8" stroke-linecap="round" opacity=".55"/>
-  <circle cx="196" cy="194" r="30" fill="#10B981"/>
-  <circle cx="196" cy="194" r="11" fill="white"/>
+  <path d="M46 72C46 49.909 63.909 32 86 32H170C192.091 32 210 49.909 210 72V130C210 152.091 192.091 170 170 170H139.5L99.6 211.4C92.099 219.18 79 213.872 79 203.07V170C60.775 166.714 46 150.268 46 130V72Z" fill="url(#bubble)"/>
+  <path d="M72 91L97 148L128 86L159 148L184 91" stroke="white" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 91L99 139L128 81L157 139L178 91" stroke="#BAE6FD" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+  <circle cx="188" cy="181" r="20" fill="#10B981"/>
+  <circle cx="188" cy="181" r="7" fill="white"/>
   <defs>
-    <linearGradient id="bubble" x1="38" y1="36" x2="214" y2="207" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bubble" x1="46" y1="32" x2="198" y2="202" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset=".55" stop-color="#0EA5E9"/>
+      <stop offset=".58" stop-color="#0EA5E9"/>
       <stop offset="1" stop-color="#0369A1"/>
     </linearGradient>
   </defs>

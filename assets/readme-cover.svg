@@ -2,13 +2,14 @@
   <rect width="1280" height="640" fill="#F5F7FB"/>
   <rect x="52" y="52" width="1176" height="536" rx="30" fill="white" stroke="#D9E2EC"/>
   <rect x="52" y="52" width="292" height="536" rx="30" fill="#101828"/>
+
   <g transform="translate(92 88)">
     <rect width="96" height="96" rx="22" fill="#0B1220"/>
-    <path d="M24.75 27.75C24.75 20.709 30.459 15 37.5 15H60C67.041 15 72.75 20.709 72.75 27.75V47.25C72.75 54.291 67.041 60 60 60H51.3L37.05 75.15C34.676 77.676 30.375 75.995 30.375 72.525V61.5C22.128 59.561 16.125 52.186 16.125 43.5V27.75Z" fill="url(#coverBubble)"/>
-    <path d="M27.75 38.25C33.15 27.9 37.65 27.9 42 38.25L47.4 51.6L53.55 24.75L60.45 51.6L66 38.25C70.5 27.9 75 27.9 79.5 38.25" stroke="white" stroke-width="6.75" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M21.75 49.8C29.7 59.4 40.95 64.5 53.1 64.5C63.15 64.5 72.45 60.9 79.65 54.9" stroke="#7DD3FC" stroke-width="3.6" stroke-linecap="round" opacity=".55"/>
-    <circle cx="72.75" cy="72" r="11.25" fill="#10B981"/>
-    <circle cx="72.75" cy="72" r="3.9" fill="white"/>
+    <path d="M18 27C18 18.451 25.451 11 34 11H62C70.549 11 78 18.451 78 27V49C78 57.549 70.549 65 62 65H51.5L36.65 80.8C33.583 84.064 28 81.894 28 77.415V65C22.074 63.578 18 58.014 18 49V27Z" fill="url(#coverBubble)"/>
+    <path d="M28 34L38 56L48 32L58 56L68 34" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 34L38.5 52L48 30.5L57.5 52L66 34" stroke="#BAE6FD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <circle cx="68" cy="70" r="7.5" fill="#10B981"/>
+    <circle cx="68" cy="70" r="2.6" fill="white"/>
   </g>
   <text x="204" y="146" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="white">Whisper</text>
   <text x="92" y="234" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#94A3B8">CENTRAL</text>
@@ -19,11 +20,11 @@
 
   <g transform="translate(408 92)">
     <rect width="192" height="192" rx="42" fill="#101828"/>
-    <path d="M49.5 55.5C49.5 41.418 60.918 30 75 30H120C134.082 30 145.5 41.418 145.5 55.5V94.5C145.5 108.582 134.082 120 120 120H102.6L74.1 150.3C69.351 155.352 60.75 151.99 60.75 145.05V123C44.256 119.121 32.25 104.371 32.25 87V55.5Z" fill="url(#coverBubble)"/>
-    <path d="M55.5 76.5C66.3 55.8 75.3 55.8 84 76.5L94.8 103.2L107.1 49.5L120.9 103.2L132 76.5C141 55.8 150 55.8 159 76.5" stroke="white" stroke-width="13.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M43.5 99.6C59.4 118.8 81.9 129 106.2 129C126.3 129 144.9 121.8 159.3 109.8" stroke="#7DD3FC" stroke-width="7.2" stroke-linecap="round" opacity=".55"/>
-    <circle cx="145.5" cy="144" r="22.5" fill="#10B981"/>
-    <circle cx="145.5" cy="144" r="7.8" fill="white"/>
+    <path d="M34.5 54C34.5 37.431 47.931 24 64.5 24H127.5C144.069 24 157.5 37.431 157.5 54V97.5C157.5 114.069 144.069 127.5 127.5 127.5H104.625L74.7 158.55C69.075 164.385 59.25 160.405 59.25 152.305V127.5C45.582 125.036 34.5 112.701 34.5 97.5V54Z" fill="url(#coverBubble)"/>
+    <path d="M54 68.25L72.75 111L96 64.5L119.25 111L138 68.25" stroke="white" stroke-width="16.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M58.5 68.25L74.25 104.25L96 60.75L117.75 104.25L133.5 68.25" stroke="#BAE6FD" stroke-width="5.25" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <circle cx="141" cy="135.75" r="15" fill="#10B981"/>
+    <circle cx="141" cy="135.75" r="5.25" fill="white"/>
   </g>
 
   <text x="636" y="150" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="850" fill="#101828">Whisper</text>
@@ -41,9 +42,9 @@
   <rect x="826" y="460" width="196" height="22" rx="8" fill="#1F2937"/>
 
   <defs>
-    <linearGradient id="coverBubble" x1="16" y1="15" x2="80" y2="76" gradientUnits="userSpaceOnUse">
+    <linearGradient id="coverBubble" x1="18" y1="11" x2="76" y2="78" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset=".55" stop-color="#0EA5E9"/>
+      <stop offset=".58" stop-color="#0EA5E9"/>
       <stop offset="1" stop-color="#0369A1"/>
     </linearGradient>
   </defs>

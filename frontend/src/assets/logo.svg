@@ -2,18 +2,18 @@
   <rect width="720" height="200" rx="32" fill="#F8FAFC"/>
   <g transform="translate(42 34)">
     <rect width="132" height="132" rx="30" fill="#101828"/>
-    <path d="M33 36C33 24.954 41.954 16 53 16H84C95.046 16 104 24.954 104 36V63C104 74.046 95.046 83 84 83H70.4L49.4 105.2C45.691 109.123 39 106.499 39 101.1V84.8C27.169 82.084 18.5 71.524 18.5 59V36Z" fill="url(#bubble)"/>
-    <path d="M32 51C39.5 37 45.5 37 51.8 51L59.3 68.5L68.2 31.5L78.1 68.5L85.8 51C91.9 37.1 98.5 37.1 105 51" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M26 66C37 79.5 52.6 87 69.5 87C84.7 87 98.7 80.9 109 70.7" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round" opacity=".55"/>
-    <circle cx="100" cy="97" r="15" fill="#10B981"/>
-    <circle cx="100" cy="97" r="5.5" fill="white"/>
+    <path d="M24 37C24 25.598 33.598 16 45 16H87C98.402 16 108 25.598 108 37V67C108 78.402 98.402 88 87 88H71.5L50.9 109.4C47.001 113.45 40 110.689 40 105.07V88C30.718 86.162 24 77.836 24 67V37Z" fill="url(#bubble)"/>
+    <path d="M38 47L51 76L66 44L81 76L94 47" stroke="white" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M41 47L52 71L66 42L80 71L91 47" stroke="#BAE6FD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <circle cx="96" cy="94" r="10" fill="#10B981"/>
+    <circle cx="96" cy="94" r="3.5" fill="white"/>
   </g>
   <text x="206" y="100" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="#101828">Whisper</text>
   <text x="210" y="137" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#475467">Realtime support desk</text>
   <defs>
-    <linearGradient id="bubble" x1="20" y1="18" x2="108" y2="101" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bubble" x1="24" y1="16" x2="103" y2="105" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset=".55" stop-color="#0EA5E9"/>
+      <stop offset=".58" stop-color="#0EA5E9"/>
       <stop offset="1" stop-color="#0369A1"/>
     </linearGradient>
   </defs>
