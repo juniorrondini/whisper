@@ -2,6 +2,14 @@
 
 ![Whisper](assets/readme-cover.svg)
 
+<p align="center">
+  <img src="assets/icon.svg" alt="Icone oficial do Whisper" width="112" />
+</p>
+
+<p align="center">
+  <strong>Marca Whisper:</strong> o icone acima e o simbolo oficial do projeto, usado tambem como favicon e base da logo.
+</p>
+
 Whisper e uma plataforma SaaS de atendimento ao cliente em tempo real. O projeto nao usa marca, API privada, engenharia reversa ou identidade visual do WhatsApp. A arquitetura esta preparada para canais oficiais futuros, mas o MVP implementa apenas painel interno e webchat/canal interno.
 
 ## Stack
