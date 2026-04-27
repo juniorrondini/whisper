@@ -1,0 +1,51 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#F5F7FB"/>
+  <rect x="52" y="52" width="1176" height="536" rx="30" fill="white" stroke="#D9E2EC"/>
+  <rect x="52" y="52" width="292" height="536" rx="30" fill="#101828"/>
+
+  <g transform="translate(133 86)">
+    <rect width="130" height="130" rx="30" fill="#0B1220"/>
+    <path d="M30 39C30 27.954 38.954 19 50 19H82C93.046 19 102 27.954 102 39V66C102 77.046 93.046 86 82 86H70.2L50.6 106.4C46.85 110.3 40.25 107.65 40.25 102.24V86C34.212 84.804 30 79.225 30 66V39Z" fill="url(#bubble)"/>
+    <path d="M43 50L56 79L66 47L76 79L89 50" stroke="white" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M46 50L57 73L66 45L75 73L86 50" stroke="#BAE6FD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <circle cx="91" cy="92" r="10" fill="#10B981"/>
+    <circle cx="91" cy="92" r="3.5" fill="white"/>
+  </g>
+
+  <text x="198" y="260" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="850" fill="white" text-anchor="middle">Whisper</text>
+  <text x="198" y="294" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#94A3B8" text-anchor="middle">SUPPORT DESK</text>
+  <rect x="92" y="340" width="208" height="44" rx="8" fill="#1F2937"/>
+  <rect x="92" y="404" width="208" height="44" rx="8" fill="#0EA5E9"/>
+  <rect x="92" y="468" width="154" height="44" rx="8" fill="#1F2937"/>
+
+  <g transform="translate(410 102)">
+    <rect width="172" height="172" rx="38" fill="#101828"/>
+    <path d="M31 48C31 33.088 43.088 21 58 21H114C128.912 21 141 33.088 141 48V87C141 101.912 128.912 114 114 114H93.5L66.9 141.6C61.899 146.79 53.25 143.251 53.25 136.05V114C41.062 111.8 31 100.67 31 87V48Z" fill="url(#bubble)"/>
+    <path d="M48 61L65 100L86 57L107 100L124 61" stroke="white" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M52 61L66 94L86 54L106 94L120 61" stroke="#BAE6FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <circle cx="126" cy="122" r="14" fill="#10B981"/>
+    <circle cx="126" cy="122" r="5" fill="white"/>
+  </g>
+
+  <text x="636" y="158" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="850" fill="#101828">Whisper</text>
+  <text x="636" y="208" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="650" fill="#0369A1">SaaS de atendimento em tempo real</text>
+  <text x="636" y="249" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475467">Golang, WebSocket, PostgreSQL, Redis, React e Tailwind CSS.</text>
+
+  <rect x="410" y="344" width="344" height="156" rx="14" fill="#F8FAFC" stroke="#D9E2EC"/>
+  <rect x="782" y="344" width="360" height="156" rx="14" fill="#101828"/>
+  <rect x="442" y="382" width="130" height="18" rx="6" fill="#CBD5E1"/>
+  <rect x="442" y="422" width="252" height="24" rx="8" fill="#0EA5E9"/>
+  <rect x="442" y="462" width="204" height="24" rx="8" fill="#10B981"/>
+  <circle cx="828" cy="392" r="18" fill="#0EA5E9"/>
+  <rect x="860" y="378" width="214" height="28" rx="8" fill="#1F2937"/>
+  <rect x="828" y="432" width="270" height="22" rx="8" fill="#1F2937"/>
+  <rect x="828" y="468" width="196" height="22" rx="8" fill="#1F2937"/>
+
+  <defs>
+    <linearGradient id="bubble" x1="30" y1="19" x2="96" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".58" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,6 +1,6 @@
 # Whisper
 
-![Whisper](assets/readme-cover.svg)
+![Whisper](assets/readme-cover-brand.svg)
 
 <p align="center">
   <img src="assets/icon.svg" alt="Icone oficial do Whisper" width="112" />
