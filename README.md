@@ -9,7 +9,7 @@ Whisper e uma plataforma SaaS de atendimento ao cliente em tempo real. O projeto
 - Backend: Go, Gin, WebSocket, PostgreSQL, Redis, JWT, bcrypt
 - Frontend: React, TypeScript, Vite, Tailwind CSS
 - Infra local: Docker Compose, PostgreSQL, Redis, API Go e frontend estatico
-- Assets: logo SVG, favicon ICO/SVG e imagem do README em `assets/`
+- Assets: icone original, logo SVG, favicon ICO/SVG e imagem do README em `assets/`
 
 ## Arquitetura
 

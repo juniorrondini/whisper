@@ -1,11 +1,20 @@
 <svg width="720" height="200" viewBox="0 0 720 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="200" rx="32" fill="#F8FAFC"/>
   <g transform="translate(42 34)">
-    <rect x="0" y="0" width="132" height="132" rx="30" fill="#101828"/>
-    <path d="M36 45c0-12.15 9.85-22 22-22h28c12.15 0 22 9.85 22 22v18c0 12.15-9.85 22-22 22H68.7L48.2 103.5c-3.9 3.52-10.2.75-10.2-4.5V84.4C26.8 82.36 18 72.56 18 60.8V45Z" fill="#0EA5E9"/>
-    <path d="M48 49.5h38M48 64.5h28" stroke="white" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="96" cy="94" r="16" fill="#10B981"/>
+    <rect width="132" height="132" rx="30" fill="#101828"/>
+    <path d="M33 36C33 24.954 41.954 16 53 16H84C95.046 16 104 24.954 104 36V63C104 74.046 95.046 83 84 83H70.4L49.4 105.2C45.691 109.123 39 106.499 39 101.1V84.8C27.169 82.084 18.5 71.524 18.5 59V36Z" fill="url(#bubble)"/>
+    <path d="M32 51C39.5 37 45.5 37 51.8 51L59.3 68.5L68.2 31.5L78.1 68.5L85.8 51C91.9 37.1 98.5 37.1 105 51" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M26 66C37 79.5 52.6 87 69.5 87C84.7 87 98.7 80.9 109 70.7" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <circle cx="100" cy="97" r="15" fill="#10B981"/>
+    <circle cx="100" cy="97" r="5.5" fill="white"/>
   </g>
   <text x="206" y="100" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="#101828">Whisper</text>
   <text x="210" y="137" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#475467">Realtime support desk</text>
+  <defs>
+    <linearGradient id="bubble" x1="20" y1="18" x2="108" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".55" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
 </svg>

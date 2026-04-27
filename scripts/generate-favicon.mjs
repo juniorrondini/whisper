@@ -20,19 +20,66 @@ function setPixel(x, y, rgba) {
   pixels[offset + 3] = rgba[3];
 }
 
-function fill(predicate, rgba) {
+function fill(predicate, rgbaOrFn) {
   for (let y = 0; y < size; y++) {
     for (let x = 0; x < size; x++) {
-      if (predicate(x, y)) setPixel(x, y, rgba);
+      if (predicate(x, y)) {
+        setPixel(x, y, typeof rgbaOrFn === "function" ? rgbaOrFn(x, y) : rgbaOrFn);
+      }
     }
   }
 }
 
 fill((x, y) => insideRoundRect(x, y, 32, 32, 7), [16, 24, 40, 255]);
-fill((x, y) => insideRoundRect(x - 4, y - 5, 24, 20, 6) && !(x > 21 && y > 20), [14, 165, 233, 255]);
-fill((x, y) => x >= 11 && x <= 23 && y >= 12 && y <= 14, [255, 255, 255, 255]);
-fill((x, y) => x >= 11 && x <= 19 && y >= 18 && y <= 20, [255, 255, 255, 255]);
-fill((x, y) => (x - 24) ** 2 + (y - 24) ** 2 <= 20, [16, 185, 129, 255]);
+
+const bubble = (x, y) => {
+  const body = x >= 5 && x <= 26 && y >= 5 && y <= 22 && insideRoundRect(x - 5, y - 5, 21, 17, 5);
+  const tail = x >= 10 && x <= 16 && y >= 20 && y <= 27 && y - 20 >= Math.abs(x - 12);
+  return body || tail;
+};
+
+fill(bubble, (_x, y) => {
+  const t = Math.max(0, Math.min(1, (y - 5) / 22));
+  return [
+    Math.round(56 * (1 - t) + 3 * t),
+    Math.round(189 * (1 - t) + 105 * t),
+    Math.round(248 * (1 - t) + 161 * t),
+    255
+  ];
+});
+
+function distanceToSegment(px, py, ax, ay, bx, by) {
+  const dx = bx - ax;
+  const dy = by - ay;
+  const len = dx * dx + dy * dy;
+  const t = Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / len));
+  const x = ax + t * dx;
+  const y = ay + t * dy;
+  return Math.hypot(px - x, py - y);
+}
+
+const wave = [
+  [8.5, 13],
+  [11, 8],
+  [14.5, 21],
+  [17.5, 7],
+  [20.8, 21],
+  [24, 8],
+  [27, 13]
+];
+
+fill((x, y) => {
+  for (let i = 0; i < wave.length - 1; i++) {
+    if (distanceToSegment(x + 0.5, y + 0.5, wave[i][0], wave[i][1], wave[i + 1][0], wave[i + 1][1]) <= 1.35) {
+      return true;
+    }
+  }
+  return false;
+}, [255, 255, 255, 255]);
+
+fill((x, y) => distanceToSegment(x + 0.5, y + 0.5, 7, 18.5, 26.5, 19.5) <= 0.85, [125, 211, 252, 150]);
+fill((x, y) => (x - 24) ** 2 + (y - 24) ** 2 <= 17, [16, 185, 129, 255]);
+fill((x, y) => (x - 24) ** 2 + (y - 24) ** 2 <= 4, [255, 255, 255, 255]);
 
 const andMask = Buffer.alloc(size * 4);
 const dibSize = 40 + pixels.length + andMask.length;
